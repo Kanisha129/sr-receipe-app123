@@ -18,7 +18,9 @@ export default function Meals() {
             </div>
         })
   return (
-    <div>{meal} Receipes
+    <div>
+        <div className='text-2xl text-orange-500 text-center'>{meal} Receipes</div>
+        
     <div className='flex gap-5 flex-wrap justify-center'>
         {t}
         </div></div>
